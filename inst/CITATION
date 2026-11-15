@@ -1,0 +1,30 @@
+citHeader("To cite emeans in publications please cite the e-means paper, and the package itself.")
+
+bibentry(
+  bibtype  = "Misc",
+  title    = "e-means: outperforming k-means (in one-tenth the epochs)",
+  author   = c(person(family = "Bessa"),
+               person(family = "Mazare"),
+               person(family = "Szilvasy"),
+               person(family = "Touvron"),
+               person(family = "Picard"),
+               person(family = "Douze"),
+               person(family = "Jegou")),
+  year     = "2026",
+  url      = "https://e-means.github.io",
+  textVersion = paste("Bessa, Mazare, Szilvasy, Touvron, Picard, Douze, Jegou (2026).",
+                      "e-means: outperforming k-means (in one-tenth the epochs).",
+                      "https://e-means.github.io")
+)
+
+bibentry(
+  bibtype  = "Manual",
+  title    = "emeans: Fast Unsupervised Subtyping of Expression Data",
+  author   = person(given = "Dingkang", family = "Zhao"),
+  year     = "2026",
+  note     = "R package version 0.1.0",
+  url      = "https://github.com/DK-Zhao1999/emeans",
+  textVersion = paste("Zhao, D. (2026). emeans: Fast Unsupervised Subtyping of",
+                      "Expression Data. R package version 0.1.0.",
+                      "https://github.com/DK-Zhao1999/emeans")
+)

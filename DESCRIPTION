@@ -1,0 +1,29 @@
+Package: emeans
+Title: Fast Unsupervised Subtyping of Expression Data with e-means
+Version: 0.1.0
+Authors@R:
+    person("Dingkang", "Zhao", email = "dingkang.25@intl.zju.edu.cn",
+           role = c("aut", "cre"))
+Description: Unsupervised disease subtyping for bulk expression matrices.
+    Clusters samples with the e-means algorithm, an exponential-moving-average
+    variant of k-means that uses cosine-annealed step sizes, dead-cluster
+    revival and a last-epoch averaging pass, and exposes a one-call interface
+    that takes a genes-by-samples matrix and returns per-sample subtype labels
+    together with expression centroids, silhouette diagnostics, marker genes
+    and a predictor for new samples. Preprocessing (median imputation,
+    zero-variance filtering, gene-wise z-scores and PCA) is applied
+    internally. The method is described in Bessa, Mazare, Szilvasy, Touvron,
+    Picard, Douze and Jegou (2026) <https://e-means.github.io>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports:
+    graphics,
+    stats,
+    utils
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1
