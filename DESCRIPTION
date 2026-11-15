@@ -1,5 +1,5 @@
 Package: emeans
-Title: Fast Unsupervised Subtyping of Expression Data with e-means
+Title: Unsupervised Subtyping of Expression Data with e-Means
 Version: 0.1.0
 Authors@R:
     person("Dingkang", "Zhao", email = "dingkang.25@intl.zju.edu.cn",
