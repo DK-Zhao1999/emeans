@@ -34,9 +34,7 @@ expr <- base + shift + loading %*% fac +
 rownames(expr) <- genes
 colnames(expr) <- samples
 
-## a few missing values so the imputation path is exercised by the examples
-na_idx <- cbind(sample(n_gene, 8), sample(n_samp, 8))
-expr[na_idx] <- NA
+## no missing values: the imputation path is covered by the tests instead
 
 emeans_example <- expr
 
