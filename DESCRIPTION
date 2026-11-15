@@ -4,19 +4,12 @@ Version: 0.1.0
 Authors@R:
     person("Dingkang", "Zhao", email = "dingkang.25@intl.zju.edu.cn",
            role = c("aut", "cre"))
-Description: Unsupervised molecular subtyping of bulk expression matrices.
-    Samples are clustered with e-means, a k-means variant whose centroids
-    follow an exponentially decaying average with a cosine-annealed step size
-    and periodic revival of under-used centroids. One call takes a
-    genes-by-samples matrix, imputes missing values with gene medians, drops
-    constant genes, standardises each gene, reduces the matrix to principal
-    components and clusters the samples, returning subtype labels, subtype
-    centroids on the input scale, silhouette diagnostics, the scan over
-    candidate numbers of subtypes, marker genes and a predictor for new
-    samples. The clustering engine is exported as well, for matrices that are
-    already samples by features. The method is described in Bessa, Mazare,
-    Szilvasy, Touvron, Picard, Douze and Jegou (2026)
-    <https://e-means.github.io>.
+Description: Unsupervised molecular subtyping of bulk expression data.
+    Samples are clustered with e-means, a k-means variant with exponentially
+    averaged centroids, annealed step sizes and dead-cluster revival.
+    Imputation, z-scores and PCA are built in; one call returns subtype
+    labels, centroids, silhouette diagnostics, the k scan, markers and a
+    predictor.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: R (>= 3.5.0)
