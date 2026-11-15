@@ -39,6 +39,17 @@ samples by features.
 }
 }
 
+\section{Licence and attribution}{
+
+
+This package is an R implementation of the e-means algorithm described in
+Bessa, Mazare, Szilvasy, Touvron, Picard, Douze and Jegou (2026),
+\url{https://e-means.github.io}. It follows the reference implementation
+published by Meta Platforms, Inc. and affiliates at
+\url{https://github.com/e-means/e-means.github.io}, which is released under the
+MIT licence; that copyright notice is retained in \code{LICENSE.md}.
+}
+
 \author{
 \strong{Maintainer}: Dingkang Zhao \email{dingkang.25@intl.zju.edu.cn}
 

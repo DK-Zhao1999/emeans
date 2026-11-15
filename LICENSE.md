@@ -1,6 +1,14 @@
 MIT License
 
 Copyright (c) 2026 Dingkang Zhao
+Copyright (c) Meta Platforms, Inc. and affiliates
+
+emeans is an R implementation of the e-means algorithm described in Bessa,
+Mazare, Szilvasy, Touvron, Picard, Douze and Jegou (2026), and it follows the
+reference implementation published by Meta Platforms, Inc. and affiliates at
+https://github.com/e-means/e-means.github.io, which is released under the MIT
+license. The copyright notice above for Meta Platforms, Inc. and affiliates
+is retained for the portions derived from that reference implementation.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

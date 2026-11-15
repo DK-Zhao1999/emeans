@@ -125,6 +125,16 @@ If you use the package, please cite that work, and the package itself:
 citation("emeans")
 ```
 
+## Attribution
+
+This package is an R implementation of the e-means algorithm. It follows the
+reference implementation published by **Meta Platforms, Inc. and affiliates**
+at <https://github.com/e-means/e-means.github.io>, which is released under the
+MIT license. That copyright notice is retained in
+[LICENSE.md](LICENSE.md); the package is distributed under the same MIT terms.
+
 ## License
 
-MIT. See [LICENSE.md](LICENSE.md).
+MIT. See [LICENSE.md](LICENSE.md). Copyright (c) 2026 Dingkang Zhao and
+Copyright (c) Meta Platforms, Inc. and affiliates.
+

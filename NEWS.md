@@ -3,6 +3,13 @@
 First release, packaging the `e_means_bio.R` reference implementation as an
 installable R package.
 
+## Licence and attribution
+
+* The package implements the e-means algorithm of Bessa et al. (2026) and
+  follows the reference implementation published by Meta Platforms, Inc. and
+  affiliates under the MIT licence. That copyright notice is retained in
+  `LICENSE.md`, and the package is distributed under the same MIT terms.
+
 ## Interface
 
 * `emeans_bio()` takes a genes-by-samples matrix and returns subtype labels,
