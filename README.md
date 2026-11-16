@@ -1,13 +1,13 @@
-# emeans
+# E-Means
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/DK-Zhao1999/emeans/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/DK-Zhao1999/emeans/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/DK-Zhao1999/E-Means/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/DK-Zhao1999/E-Means/actions/workflows/R-CMD-check.yaml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 <!-- badges: end -->
 
 **Unsupervised subtype discovery for bulk expression data, in one call.**
 
-`emeans` clusters samples with [e-means](https://e-means.github.io), a k-means
+`EMeans` clusters samples with [e-means](https://e-means.github.io), a k-means
 variant whose centroids follow an exponentially decaying average, with a cosine
 annealed step size and periodic revival of dead centroids. You give it a
 genes-by-samples matrix; it gives back subtype labels, expression centroids,
@@ -21,7 +21,7 @@ PCA are handled inside.
 
 ```r
 # install.packages("remotes")
-remotes::install_github("DK-Zhao1999/emeans")
+remotes::install_github("DK-Zhao1999/E-Means")
 ```
 
 Requires R >= 3.5.0. The only imports are `stats`, `graphics` and `utils`.
@@ -29,7 +29,7 @@ Requires R >= 3.5.0. The only imports are `stats`, `graphics` and `utils`.
 ## Quick start
 
 ```r
-library(emeans)
+library(EMeans)
 
 expr <- emeans_example          # 300 genes x 120 samples, simulated, 3 subtypes
 fit <- emeans_bio(expr)
@@ -67,7 +67,7 @@ predict(fit, new_expr)          # assign new samples to the learned subtypes
 | `centroids` | the same centroids in the scaled space used for clustering |
 | `silhouette`, `k_scan` | diagnostics, including the full `k` scan |
 | `scores`, `pve` | sample by PC coordinates and variance explained |
-| `fit` | the underlying `emeans` engine object |
+| `fit` | the underlying `emeans()` engine object |
 
 ## How it works
 
@@ -122,7 +122,7 @@ The algorithm is described in:
 If you use the package, please cite that work, and the package itself:
 
 ```r
-citation("emeans")
+citation("EMeans")
 ```
 
 ## Attribution

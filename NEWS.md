@@ -1,4 +1,4 @@
-# emeans 0.1.0
+# EMeans 0.1.0
 
 First release, packaging the `e_means_bio.R` reference implementation as an
 installable R package.

@@ -1,4 +1,4 @@
-citHeader("To cite emeans in publications please cite the e-means paper, and the package itself.")
+citHeader("To cite EMeans in publications please cite the e-means paper, and the package itself.")
 
 bibentry(
   bibtype  = "Misc",
@@ -19,12 +19,12 @@ bibentry(
 
 bibentry(
   bibtype  = "Manual",
-  title    = "emeans: Fast Unsupervised Subtyping of Expression Data",
+  title    = "EMeans: Unsupervised Subtyping of Expression Data",
   author   = person(given = "Dingkang", family = "Zhao"),
   year     = "2026",
   note     = "R package version 0.1.0",
-  url      = "https://github.com/DK-Zhao1999/emeans",
-  textVersion = paste("Zhao, D. (2026). emeans: Fast Unsupervised Subtyping of",
+  url      = "https://github.com/DK-Zhao1999/E-Means",
+  textVersion = paste("Zhao, D. (2026). EMeans: Unsupervised Subtyping of",
                       "Expression Data. R package version 0.1.0.",
-                      "https://github.com/DK-Zhao1999/emeans")
+                      "https://github.com/DK-Zhao1999/E-Means")
 )

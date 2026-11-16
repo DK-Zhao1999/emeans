@@ -1,6 +1,6 @@
-#' emeans: fast unsupervised subtyping of expression data
+#' EMeans: unsupervised subtyping of expression data
 #'
-#' `emeans` implements the e-means clustering algorithm and wraps it in a
+#' `EMeans` implements the e-means clustering algorithm and wraps it in a
 #' single call that turns a genes-by-samples expression matrix into per-sample
 #' subtype labels.
 #'

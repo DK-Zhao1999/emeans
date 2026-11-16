@@ -1,4 +1,4 @@
 library(testthat)
-library(emeans)
+library(EMeans)
 
-test_check("emeans")
+test_check("EMeans")

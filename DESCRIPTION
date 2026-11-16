@@ -1,4 +1,4 @@
-Package: emeans
+Package: EMeans
 Title: Unsupervised Subtyping of Expression Data with e-Means
 Version: 0.1.0
 Authors@R:
@@ -10,6 +10,8 @@ Description: Unsupervised molecular subtyping of bulk expression data.
     Imputation, z-scores and PCA are built in; one call returns subtype
     labels, centroids, silhouette diagnostics, the k scan, markers and a
     predictor.
+URL: https://github.com/DK-Zhao1999/E-Means
+BugReports: https://github.com/DK-Zhao1999/E-Means/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: R (>= 3.5.0)
